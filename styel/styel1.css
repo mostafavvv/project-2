@@ -1,0 +1,375 @@
+.container{width: 1170px; margin: auto;
+
+}
+.clearfix{clear: both}
+
+.header{background-color: #252f31;   overflow: hidden;}
+
+   .header .navbar2 ul { list-style: none;
+        color: darkgray;      
+       
+       padding-top: 15px;
+       padding-left: 0;
+       overflow: hidden;
+       float: left;
+}
+.header .navbar2 ul li{ float: left;padding:5px;  text-transform: capitalize;}
+
+    
+ .header .navbar ul { list-style: none;
+       padding-bottom: 20px;
+       
+       padding-left: 0;
+       overflow: hidden;
+       float: right;
+}
+.header .navbar ul li{float: left;
+    padding: 10px;  }
+.header .navbar ul li i{
+    background-color: aliceblue;
+}
+
+
+.tabel{
+    overflow: hidden; background-color: #FFF;
+    
+}
+.tabel ul{
+    
+    list-style: none;
+    padding-left: 0;
+    
+    float: left;
+       font-style: italic; 
+  
+}
+.tabel ul li{
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.tabel .line{
+    
+    background-color: #EEEEEE;
+    height:20px;
+    margin-top: 70px;
+    padding-left: 100px;
+    
+}
+.tabel .line span{
+    background-color: crimson;
+    height: 20px;
+    display:block;
+    line-height: 25px;
+    text-align: right;
+    
+
+}
+/**/
+.center{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.center .we{
+    width: 50%;
+    margin-right: 5px;
+    float: left;    
+}
+
+.center .we h1{
+   color: black;
+    text-transform: capitalize;
+    
+    
+}
+.center .we p{
+    text-transform: capitalize;
+    color: #9E9E9E;
+    margin-top: 0;
+}
+.center .but{
+    float: right;
+}
+.center .but  button{
+    margin-top: 55px;
+    margin-left: 
+    padding: 5px 5px;
+    background-color: #2196F3;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 4px;
+
+    
+}
+.center .but input{
+    padding: 5px 5px;
+    background-color: #E0E0E0;
+    color: #9E9E9E;
+    border: 0;
+    border-radius: 4px;
+
+}
+/* par*/
+.moos .par{
+    background-image:  url('../images/saa.jpg' );
+    background-size:cover;
+    height: 400px;
+    overflow: hidden;
+    width: 1170px; 
+    margin:auto;
+    margin-top: 0;
+    border-top: 2px solid #E0E0E0;
+    border-bottom: 5px solid #E0E0E0;
+    
+}
+.moos .par .ri{
+    float: left;
+    margin-top:100px;
+    width: 50%;
+    
+    
+}
+.moos .par .ri h2{
+    text-transform: capitalize;
+    width: 50%
+}
+.moos .par .ri p{
+    width: 50%;
+    
+}
+.moos .par .ri button{
+    background-color: #2196F3;
+    border-radius:5px; 
+    color: aliceblue;
+     text-transform:uppercase;
+    padding: 5px 5px;
+}
+
+
+ /*start about me*/
+   .about-me{
+    overflow: hidden;}  
+    .about-me .imagies{float: left; width: 40%;  }
+    .about-me .imagies img{width: 100%;}
+    
+    .about-me  .hobbies{overflow: hidden;
+    margin: 30px 0 0 40px ; padding-left:200px; }
+.about-me  .hobbies .content{
+    float: left;
+  width: 50%;
+ min-height: 100px;
+    overflow: hidden;
+    
+}
+
+.about-me  .hobbies .content  h3 {color:#2196F3; padding-left: 20px; text-transform:capitalize;}
+.about-me .info .hobbies .content .icon{ float: left; width:30%;
+    margin-right: 5% ;
+     padding-left: 70px;
+margin-top: 0   px;}
+.about-me  .hobbies .content .icon img{
+    max-width: 100%;
+    margin: 15px 10px 0 0;
+}
+.about-me  .hobbies .content  .text{  float: left; width: 83%;  }
+.about-me  .hobbies .content  .text p {text-indent:30px ;} 
+
+  
+     /*end about me*/
+
+/* start contact me*/
+.contact-me{
+    background-color: #BDBDBD;  
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+        width: 1170px; 
+    margin:auto;
+    
+}
+.contact-me .pa{
+    width: 50%;
+    margin-right: 5px;
+    float: left;
+    padding-left: 50px;
+    padding-top:0;
+        
+}
+
+.contact-me .pa h1{
+   color: black;
+    text-transform: capitalize;
+    
+    
+}
+.contact-me .pa p{
+    text-transform: capitalize;
+    color: #212121;
+    margin-top: 0;
+    text-align
+    
+}
+
+.contact-me .pe{
+    padding-top: 23px;
+    
+    
+}
+
+.contact-me .pe  button{
+    padding: 30px 100px;
+    background-color: #2196F3;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 6px;
+    text-transform: uppercase;
+   color: aliceblue;
+    
+ 
+  
+}
+/* start footer*/
+.footer
+    {background-color: #252f31;   overflow: hidden;
+
+ width: 1170px; margin: auto; margin-top: 30px;
+}
+.footer h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+  
+ .footer .about-us{
+    float: left;
+    width:250px;
+     padding-left: 25px;
+     padding-top: 30px;
+}
+
+
+.footer .about-us p {
+    color:#9E9E9E;
+    
+}
+.footer .quick-links{
+    float: left;
+   width:250px;
+
+}
+.footer .quick-links h1{
+    padding-left: 40px;
+    padding-top:30px
+}
+.footer .quick-links hr {
+    margin: 10px 0;  
+    background-color:#424242 ; 
+    height: 1px ;
+    border: 0;}
+  
+
+    
+
+.footer .quick-links ul{
+    margin-top: 0;
+}
+.footer .quick-links ul li{
+      list-style: none; 
+    color: #2196F3;
+    text-transform: capitalize;
+    
+}
+
+
+.footer .blog{
+     float: left;
+      width:250px;
+    padding-left: 25px;
+      color:#9E9E9E;
+    text-transform: capitalize;
+     padding-top:30px;}
+
+
+}
+
+.footer .blog h1{
+}
+.footer .blog h3{
+    margin-bottom:   0px;
+}
+.footer .blog p{
+margin: 0px 0 5px 0px; }
+
+
+.footer .form{
+     float: left;
+     width:250px;
+    margin-left: 20px;
+    margin-top: 33px;
+}
+.footer .form input{
+     
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px; 
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+        
+}
+.footer .form textarea{
+    
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px; 
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    height:  50px;
+        
+}
+ .footer .form input[type="submit"]{
+    background-color: #2196F3;
+
+    color: #fff;
+    padding:10px 5px;     
+    border: 0;
+     border-radius: 3px;
+    margin-top: 15px;
+   text-transform: capitalize;
+    
+}
+
+
+
+
+
+
+/*end footer*/
+/* start end */
+.end1{
+    overflow: hidden;
+    margin: auto;
+    background-color: #4b5557;
+    width: 1170px;
+    text-transform: capitalize;
+      color:#9E9E9E;
+
+}
+.end1 .end2 p{
+    float: left;
+   padding-left:  20px;
+}
+.end1 .end3 p{
+    float: right;
+       padding-right:  20px;
+
+}
+/*end end */
+
+
+/* end contact me*/
